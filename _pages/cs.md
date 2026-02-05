@@ -1,5 +1,5 @@
 ---
-title: "Computer Science (Basics)"
+title: "Computer Science"
 permalink: /cs/
 ---
 
