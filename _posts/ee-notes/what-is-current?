@@ -1,0 +1,41 @@
+---
+title: "What Is Current?"
+categories:
+  - EE
+---
+
+Electric current describes the flow of electric charge over time.
+Although current is one of the most commonly used terms in electrical engineering,
+it is often misunderstood as energy or power.
+In reality, current is neither of these.
+
+At a basic level, current measures how much electric charge passes through a point
+in a circuit per unit time.
+It is a rate, not a substance.
+Saying that a circuit has a large current simply means
+that charge is moving through it quickly.
+
+One common source of confusion is the direction of current.
+By convention, current is defined as flowing from positive to negative.
+However, in most conductive materials, electrons—which carry negative charge—
+actually move in the opposite direction.
+This apparent contradiction is purely historical
+and does not affect circuit analysis or physical understanding.
+
+Current cannot exist without a closed path.
+If there is no continuous loop for charge to move through,
+electrons will accumulate and the flow will stop.
+This is why circuits must be complete for devices to operate.
+The requirement of a closed path naturally introduces the concept of a circuit.
+
+The importance of current lies in its physical effects.
+Flowing charge generates heat in resistive materials,
+creates magnetic fields around conductors,
+and enables devices such as LEDs, motors, and processors to function.
+While voltage provides the potential for action,
+it is current that produces observable effects.
+
+If electric charge is the static foundation of electrical systems,
+current is what brings those systems to life.
+Understanding current allows us to explain
+how energy is transferred and controlled in real circuits.
