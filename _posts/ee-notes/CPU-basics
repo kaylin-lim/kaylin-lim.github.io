@@ -1,9 +1,25 @@
 ---
-title: "CPU-basics"
-categories:
-  - EE
+title: CPU Basics
+category: EE
+subcategory: Architecture
+tags: [CPU, Architecture]
 ---
 
-reference: https://m.blog.naver.com/ham_gyumin/222992407649
+## What is a CPU?
 
-공부해야할 것 : cpu 기본 구조 + 주변에 붙는 HW interface, platform 이해
+(영어로 설명)
+
+## Core Components
+- ALU
+- Control Unit
+- Registers
+
+## Execution Flow
+Fetch → Decode → Execute
+
+## What I Learned
+- CPU is not just “compute”
+- Control logic dominates complexity
+
+## Next
+→ Hardware interfaces & memory hierarchy
