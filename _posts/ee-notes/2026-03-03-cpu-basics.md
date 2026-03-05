@@ -6,11 +6,13 @@ tags: [CPU, Architecture]
 ---
 
 ## What is a CPU?
+<img width="267" height="220" alt="image" src="https://github.com/user-attachments/assets/a6737cca-ae3b-497c-84c2-b3abf06bcaa6" />
 
 Central Processing Unit (CPU) 중앙처리장치 
 - 컴퓨터 중앙에서 모든 data를 처리하도록 각 구성들에게 명령을 내리는 장치
 - 입력받은 내용 해석>연산>결과 출력
 - transistor(반도체)로 만들어짐(transistor - pnp/npn에서 특정 전압을 가해서 스위치 역할을 해주는 반도체, 이를 이용해 logic gate 만들 수 있)
+- sequential 처리 방식에 특화 / 한번에 한가지 명령만 처리
 
 - CPU 성능 파악의 척도
     - 높은 clock(동일 코어수, thread 수, 동일 캐시 메모리의 경우)
@@ -38,7 +40,7 @@ Central Processing Unit (CPU) 중앙처리장치
   아래의 Execution Flow 과정 지휘함, control signal 만들어 다른 부품 움직임
   Hardwired control / Microprogrammed Control
 
-- Registers - 임시 저장소 in CPU
+- Registers - 임시 저장소 in CPU / CPU 내부 면적의 절반 이상이 cache 메모리
   연산 데이터,ALU 결과, instruction, address, state 저장
   여러 종류...
   ( general purpose register - 계산용 데이터 저장
@@ -47,6 +49,11 @@ Central Processing Unit (CPU) 중앙처리장치
   memory address register(MAR) - 접근할 메모리 주소 저장
   memory data register(MDR) - 메모리에서 읽은 데이터 저장
   status register(flag register) - 연산 결과 상태 저장 ~~flag)
+
+  *Cache 메모리
+      CPU와 RAM 사이의 속도 차이로 인한 병목 현상 막는 장치
+      CPU가 처리할 data를 RAM에서 미리 불러와 내부 cache memory에 임시 저장 > 처리 속도 높일 수 있음
+      
 
   * hw 관점 - 여러 개의 flip-flop으로 구성, clock에 맞춰 동작
     transistor > logic gate > flip-flop > register
