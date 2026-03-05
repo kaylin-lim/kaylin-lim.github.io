@@ -7,7 +7,7 @@ tags: [GPU, Architecture]
 
 ## What is a GPU?
 
-
+(이미지 붙여넣기가 안되네... GPU 내부 구조 그림 from https://velog.io/@ckstn0777/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0-CPU%EC%99%80-GPU)
 
 Graphics Processing Unit (GPU) 그래픽 처리장치 
 - 대량의 데이터를 동시에 "병렬"로 처리하도록 설계된 연산 장치
